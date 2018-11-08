@@ -181,6 +181,7 @@ header {
 }
 
 nav {
+  text-transform: capitalize;
   opacity: 0.8;
   position: relative;
   z-index: 100;
@@ -434,7 +435,6 @@ hr {
   color: #3e3d3d;
   -webkit-box-shadow: 0 0 15px -2px grey;
           box-shadow: 0 0 15px -2px grey;
-  text-shadow: 0 0 11px #f5f5f5, 0 0 7px #a7a7a7;
 }
 
 .btn:hover {
@@ -460,8 +460,17 @@ hr {
 
 .footer-content {
   width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: auto;
-  height: 100%;
+}
+
+.footer-content p {
+  padding: 0px 0 10px 0;
 }
 
 .footer-content-info {
@@ -505,6 +514,18 @@ hr {
 .info-text {
   color: #444440;
   margin: 10px 0 10px 0;
+}
+
+.vcard {
+  color: white;
+  text-decoration: none;
+}
+
+.vcard a {
+  color: white;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-shadow: none;
 }
 .transpose-chord-selector {
   width: 130px;
