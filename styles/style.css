@@ -248,7 +248,7 @@ h3 {
 }
 
 .pageDesc {
-  padding: 0 40px 40px 40px;
+  padding: 0 40px 40px 0px;
   margin: 0;
   color: #444440;
   text-align: justify;
